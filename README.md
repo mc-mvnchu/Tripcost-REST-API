@@ -119,10 +119,10 @@ Like when adding a trip, we're a going to use the insertOne() method, this time 
 
 We get 5 parameters from the request body:
 
-*`trip`
-* date the date, in ISO 8601 format `(eg. 2018-07-12T07:22:13)`, in the GMT timezone
-* amount an integer with the amount
-* category which is one from `travel, food, accommodation, fun`
+* `trip`
+* `date` the date, in ISO 8601 format `(eg. 2018-07-12T07:22:13)`, in the GMT timezone
+* `amount` an integer with the amount
+* *category* which is one from `travel, food, accommodation, fun`
 * `description` a description for the expense, so we'll remember about it later
 
 ## List All Expenses
